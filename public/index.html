@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Alfaizi Ahmad Zahran</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>Faiz</h2>
+
+        <ul>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="hero">
+
+        <h1>Hello, I'm Faiz</h1>
+
+        <p>
+            IT Student | DevOps | SysAdmin | Networking
+        </p>
+
+        <a href="assets/cv/Dimitri_CV.pdf" download class="btn">
+
+            Download CV
+
+        </a>
+
+    </section>
+
+    <section id="about" class="fade">
+
+        <h2>About Me</h2>
+
+        <p>
+            Information Technology Student
+            interested in Cybersecurity,
+            Cloud Computing and Backend Development.
+        </p>
+
+    </section>
+
+    <section id="skills" class="fade">
+
+        <h2>Skills</h2>
+
+        <div class="cards">
+
+            <div class="card">Python</div>
+            <div class="card">Laravel</div>
+            <div class="card">Azure</div>
+            <div class="card">Docker</div>
+            <div class="card">Linux</div>
+
+        </div>
+
+    </section>
+
+    <section id="projects" class="fade">
+
+        <h2>Projects</h2>
+
+        <div id="projectList"></div>
+
+        <h3>Add Project</h3>
+
+        <input id="title" placeholder="Project Title">
+
+        <input id="description" placeholder="Description">
+
+        <button onclick="addProject()">
+            Save
+        </button>
+
+    </section>
+
+    <section id="contact" class="fade">
+
+        <h2>Contact Me</h2>
+
+        <input id="name" placeholder="Name">
+
+        <input id="email" placeholder="Email">
+
+        <textarea id="message" placeholder="Message"></textarea>
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
